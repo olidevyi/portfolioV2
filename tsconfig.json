@@ -3,6 +3,7 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
@@ -21,7 +22,24 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@Portfolio/constantes": [
+        "src/app/constantes/index.ts"
+      ],
+      "@Portfolio/core": [
+        "src/app/core/index.ts"
+      ],
+      "@Portfolio/shared": [
+        "src/app/shared/index.ts"
+      ],
+      "@Portfolio/types": [
+        "src/app/types/index.ts"
+      ],
+      "@Portfolio/utils": [
+        "src/app/utils/index.ts"
+      ],
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

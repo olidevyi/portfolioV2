@@ -1,27 +1,92 @@
-# Portfolio072024
+# Portfolio versión 2 (2024 Julio)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+## 🌐 Portfolio V2
 
-## Development server
+![Banner del Proyecto](https://media.licdn.com/dms/image/D4E16AQFmefCksSEI8g/profile-displaybackgroundimage-shrink_350_1400/0/1702241354067?e=1727308800&v=beta&t=Kzr_ctPxQrd3atRHfYTWOqolN9B8UCOWiKJBOKuckuo)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 📖 Descripción del Proyecto
 
-## Code scaffolding
+Este proyecto es una aplicación web que usa un frontend desarrollado con Angular. El objetivo de este proyecto es [describir brevemente el objetivo y funcionalidades principales del proyecto].
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🖼️ Imágenes del Proyecto
 
-## Build
+![Vista Principal](ruta/a/la/imagen/vista_principal.png)
+![Vista Secundaria](ruta/a/la/imagen/vista_secundaria.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## 👥 Miembros del Equipo
+Este proyecto fue desarrollado solo por mi persona.
 
-## Running unit tests
+| Avatar                        | Nombre                           | Rol      | GitHub & Redes                                                                                                                                                                                          |
+| ----------------------------- |----------------------------------|----------| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="48" height="48" src="https://avatars.githubusercontent.com/u/100163347?v=4" alt="olidevyi avatar" /> | Jean Pool Oliver Yantas Inocente | Frontend | [![Github](https://skillicons.dev/icons?i=github)](https://github.com/olidevyi) [![Linkedin](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/olidevyi/)                           |
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🛠️ Tecnologías Utilizadas
 
-## Running end-to-end tests
+- Frontend: `Angular 18` `TypeScript` `HTML5` `CSS3` `Bootstrap 5.3.3`
+- Backend: `Por definir` `Por definir`
+- Tipo de Proyecto: `Web Application`
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🔗 Enlaces Importantes
 
-## Further help
+- [Documentación del Proyecto](ruta/a/documentacion.pdf)
+- [Guía de Estilo de Código](ruta/a/guia_estilo.pdf)
+- [Roadmap del Proyecto](ruta/a/roadmap.pdf)
+- [Wiki del Proyecto](https://github.com/usuario/proyecto/wiki)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🚀 Levantar la Aplicación en Entorno Local
+
+### Requisitos
+
+- Node.js (https://nodejs.org/)
+- Angular CLI: `npm install -g @angular/cli`
+
+### Algunos iconos
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,javascript,typescript,angular,bootstrap)](https://skillicons.dev)
+
+### Instrucciones
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/olidevyi/portfolioV2.git
+   ```
+
+2. Navega al directorio del proyecto:
+
+   ```bash
+   cd portfolioV2
+   ```
+
+3. Instala las dependencias del frontend:
+
+   ```bash
+   cd frontend
+   npm install
+   ```
+
+4. Levanta el servidor del frontend con alguno de los siguientes comandos:
+
+   ```bash
+   npm start # `npm run start:dev` para entorno de desarrollo
+   # o
+   npm run start:prod # para entorno de producción
+
+   # NOTA:
+   # 1. si se utiliza `npm start`, se debe tener en cuenta
+   #    que el servidor del backend debe estar levantado.
+   #
+   # 2. si se utiliza `npm run start:prod`, se estara
+   #    utilizando el servidor de producción.
+   ```
+
+La aplicación estará disponible en [`http://localhost:4200`](http://localhost:4200)
+para el frontend.
+
+<!-- ## 📄 Licencia
+
+Este proyecto está bajo la Licencia [Nombre de la Licencia]. -->
+
+---
+
+¡Gracias por usar este proyecto! Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.

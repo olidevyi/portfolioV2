@@ -27,7 +27,7 @@ import { Component } from "@angular/core";
   styles: [`
   .contenedor-header {
     background: #1e2326;
-    position: fixed;
+    // position: fixed;
     width: 100%;
     top: 0;
     left: 0;
